@@ -112,16 +112,7 @@ fi
 
 ### GREG START
 export PATH=$PATH:/home/greg/scripts
-export PATH=$PATH:/home/greg/apps/android-sdk-linux/platform-tools
 export PATH=$PATH:/home/greg/bin
-export PATH=$PATH:/home/greg/apps/android-sdk-linux/tools
-alias visualvm="visualvm --jdkhome $JAVA_HOME"
-export PATH=$PATH:/home/greg/apps/racket-6.2.1/bin
-export PATH=$PATH:/home/greg/apps/spark-1.2.1-bin-hadoop2.4/bin
-export PATH=$PATH:/home/greg/apps/idea-IC-141.1532.4/bin
-export PATH=$PATH:/home/greg/apps/eclipse
-#export PATH=$PATH:/home/greg/apps/android-studio/bin
-
 
 export JAVA_HOME="/usr/lib/jvm/java-7-openjdk"
 #export JAVA_HOME="/usr/lib/jvm/jdk1.8.0_60"
@@ -143,19 +134,14 @@ alias grep="grep --color"
 alias l="ls"
 
 # Quick aliases to get to directories
-alias home="cd /home/greg/programming/search-match/tools/emr"
 alias gits="git status"
-
-# Start tomcat server
-alias startTomcat="/home/greg/apps/apache-tomcat-7.0.62/bin/catalina.sh start"
-alias stopTomcat="/home/greg/apps/apache-tomcat-7.0.62/bin/catalina.sh stop"
 
 # Screen
 alias screen="screen -h 10000"
 
 # Windows Downloads
 alias down="cd /mnt/c/Users/Greg\ Anderson/Downloads"
-alias program="cd /mnt/c/Users/Greg\ Anderson/Documents/programming"
+alias prog="cd /mnt/c/Users/Greg\ Anderson/Documents/programming"
 
 eval `dircolors ~/.dir_colors`
 
